@@ -6,7 +6,7 @@ const message = {
 
     getMessage(){
 
-        let subj = this.subject[Math.floor(Math.random())];
+        let subj = this.subject[Math.floor(Math.random()*2)];
 
         let ver = '';
 
