@@ -1,0 +1,43 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+body{
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+
+.content{
+    padding: 2%;
+    margin: 3%;
+}
+
+.button{
+    background-color: green; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: greenyellow;
+    font-size: 1rem;
+    border: 1px, white, solid;
+}
