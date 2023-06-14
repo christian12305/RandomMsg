@@ -15,16 +15,14 @@
             </div>
         
             <div class="content">
-                <button class="button" onclick="">Randomize</button>
+                <button type="button" class="button">Randomize</button>
             </div>
 
             <!-- Randomized message-->
-            <div class="message">
+            <div>
                 <h2 id="message"></h2>
             </div>
-
-            <!-- Script -->
-            <script>
+            <script src="RandomMsg.js">
                 document.getElementById("message").innerHTML = `${message.getMessage()}`;
             </script>
             
