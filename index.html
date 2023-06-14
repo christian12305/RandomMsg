@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script src="RandomMsg.js"></script>
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <title>Random positive message generator</title>
+        </head>
+        <body>
+
+            <!-- Main Content -->
+            <div class="content">
+                <h1>The random message generator.</h1>
+                <h2>Press <i>Randomize</i> to get a random reassurance message.</h2>
+                <p>This is made for a boost to your mental health.</p>
+            </div>
+        
+            <div class="content">
+                <button class="button" onclick="">Randomize</button>
+            </div>
+
+            <!-- Randomized message-->
+            <div class="message">
+                <h2 id="message"></h2>
+            </div>
+
+            <!-- Script -->
+            <script>
+                document.getElementById("message").innerHTML = `${message.getMessage()}`;
+            </script>
+            
+        </body>
+    </html>
