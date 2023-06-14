@@ -1,7 +1,7 @@
 const message = {
-    subject : ['You', 'I'],
-    verb : ['are', 'feel', 'look', 'am'],
-    adjective : ['adorable', 'adventurous', 'alive', 'attractive', 'beautiful', 'brave','calm', 
+    _subjec : ['You', 'I'],
+    _verb : ['are', 'feel', 'look', 'am'],
+    _adjective : ['adorable', 'adventurous', 'alive', 'attractive', 'beautiful', 'brave','calm', 
 'charming', 'clean', 'clear', 'clever', 'cloudy', 'colorful', 'combative', 'cooperative', 'courageous'],
 
     getMessage(){
@@ -21,5 +21,3 @@ const message = {
         return `${subj} ${ver} ${adj}`
     }
 };
-
-console.log(message.getMessage())
